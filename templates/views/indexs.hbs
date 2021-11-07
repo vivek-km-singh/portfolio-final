@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+
+
+
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{!-- favicon  --}}
+
+     <link id='favicon' rel="shortcut icon" href="image/fav2.png" type="image/x-png">
+    <title>Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/weather07-128.webp" type="image/png">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body onload="myFunction()">
+    <!-- pre loader -->
+<div id="loading">
+  {{!-- <img draggable="false" src="image/preloader.gif" alt=""> --}}
+</div>
+   {{>navbar}} 
+
+<style>
+    .home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: #f16232;
+    font-weight: 500;
+}
+</style>
+
+<script src="/public/css/script.js"></script>
+{{!-- hero section starts  --}}
+
+  <div class="containerimg">
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                        <h1>Hell0 ,</h1>
+                        <H1>My Name is</H1>
+                        <H1>Vivek Kumar Singh </H1>
+
+                
+                           
+                        </span>  </H1><br><br>
+                        <a href="#teamid">
+                                  <button class="btn-style btn-primary">CONTACT ME</button>
+                        </a>
+                        
+
+               
+
+                    </div>
+                    <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                        <figure>
+                            {{!-- <img src="image/growth.svg" alt=""> --}}
+                            <img  src="image/img-2.png"class="toppic" alt="">
+                         
+                        </figure>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{!-- hero section end  --}}
+
+
+
+  
+{{!-- about us  starts  --}}
+{{>about}}
+{{!-- about us  end  --}}
+
+
+{{!-- about us  starts  --}}
+{{>education}}
+{{!-- about us  end  --}}   
+
+
+{{!-- about us  starts  --}}
+{{>skill}}
+{{!-- about us  end  --}}   
+
+
+
+{{!-- service   starts  --}}
+{{>workon}}
+{{!-- service  end  --}}
+
+{{!-- service   starts  --}}
+{{>projects}}
+{{!-- service  end  --}}
+
+
+{{!-- maps   starts  --}}
+{{!-- {{>team}} --}}
+{{!-- maps  end  --}}
+
+
+
+{{!--  contact  starts  --}}
+{{>contact}}
+{{!-- contact  end  --}}
+
+
+
+{{!--  footer  starts  --}}
+
+{{>footer}}
+{{!-- footer  end  --}}
+
+
+
+
+
+
+
+
+    {{!-- <script src="../jq/jquery.js"type="text/javascript"></script> --}}
+    <script src="../node_modules/jquery/dist"></script>
+    <script src="../node_modules/bootstrap/dist/js"></script>
+    {{!-- <script src="../js/bootstrap.js"type="text/javascript"></script> --}}
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60f313c7649e0a0a5cccb1bd/1faqoaimk';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+
+
+var preloader =document.getElementById('loading');
+function myFunction(){
+    preloader.style.display="none";
+}
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<style>
+
+  /*Education section styling*/
+.education .title::after{
+    content: "my education";
+
+}
+#headingg{
+   font-size: 3rem;
+  font-weight: bold;
+}
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: white;
+  }
+  .timeline {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .timeline ul {
+    list-style: none;
+  }
+  .timeline ul li {
+    padding: 20px;
+    background-image: linear-gradient(-45deg, #5035ec 0%, #44a2f6 50%);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  #first-div
+  {
+        padding: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+      background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 50%);
+
+  }
+  #second-div
+  {
+        padding: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+     background-image: linear-gradient(-45deg, #f33474 0%, #f55b2a 50%);
+
+  }
+  #third-div
+  {
+        padding: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+     background-image: linear-gradient(-45deg, #fd7f30 0%, #fdb642 50%);
+
+  }
+  .timeline ul li:last-child {
+    margin-bottom: 0;
+  }
+  .timeline-content h1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .timeline-content p {
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 100;
+  }
+  .timeline-content .date {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    color: #111;
+  }
+  @media only screen and (min-width: 768px) {
+    .timeline:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 100%;
+      background-color: gray;
+    }
+    .timeline ul li {
+      width: 50%;
+      position: relative;
+      margin-bottom: 50px;
+    }
+    .timeline ul li:nth-child(odd) {
+      float: left;
+      clear: right;
+      transform: translateX(-30px);
+      border-radius: 20px 0px 20px 20px;
+    }
+    .timeline ul li:nth-child(even) {
+      float: right;
+      clear: left;
+      transform: translateX(30px);
+      border-radius: 0px 20px 20px 20px;
+    }
+    .timeline ul li::before {
+      content: "";
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background-color: gray;
+      top: 0px;
+    }
+    .timeline ul li:nth-child(odd)::before {
+      transform: translate(50%, -50%);
+      right: -30px;
+    }
+    .timeline ul li:nth-child(even)::before {
+      transform: translate(-50%, -50%);
+      left: -30px;
+    }
+    .timeline-content .date {
+      position: absolute;
+      top: -30px;
+    }
+    .timeline ul li:hover::before {
+      background-color: aqua;
+    }
+  }
+  
+/* education css ends  */
+
+</style>
+
+<div class="container-fluid mt-5 about-style"id="aboutid">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <h1 class="text-center main-heading">QUALIFICATION</h1>
+                <p class="text-center sub-heading"> --MY EDUCATION-- </p>
+
+   <!-- Education section -->
+    <section class="education" id="education">
+        <div class="max-width">
+            <div class="container">
+                <div class=" timeline ">
+                  <ul>
+                    <li>
+                      <div class="  timeline-content" id="first-div">
+                        <h3 class="date">2019-2023</h3>
+                        <h1 id="headingg">Madan Mohan Maliviya University Of Technology</h1>
+                        <ul>Bachelor of Technology (Information & Technology)</ul>
+                        <ul>Score - 8.22 GPA</ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="timeline-content" id="second-div">
+                        <h3 class="date">2016-2018</h3>
+                        <h1 id="headingg">Ratna Memorial Public School, Gorakhpur</h1>
+                        <ul>12th Higher Secondary Certificate (Mathematics) </ul>
+                        <ul>Score - 79.8 %</ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="timeline-content" id="third-div">
+                        <h3 class="date">2014-2016</h3>
+                         <h1 id="headingg">Ratna Memorial Public School, Gorakhpur</h1>
+                        <ul>10th Secondary School Certificate (Mathematics)</ul>
+                        <ul>Score - 9.8 CGPA</ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    
+                </div>
+                </div>
+                </div>
