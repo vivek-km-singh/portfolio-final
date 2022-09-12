@@ -1,7 +1,7 @@
 const mongoose =require("mongoose");
 
 // creating a database 
-mongoose.connect("mongodb://localhost:27017/newportfolio",{
+mongoose.connect("mongodb://localhost:27017/newportfoliochat",{
     useCreateIndex : true,
     useNewUrlParser:true,
     useUnifiedTopology:true
