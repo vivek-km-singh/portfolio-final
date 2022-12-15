@@ -1,7 +1,7 @@
  const  express = require("express");
  const app = express();
- require("./db/conn");
- const User =require("./models/usermessage");
+//  require("./db/conn");
+//  const User =require("./models/usermessage");
  const hbs = require("hbs");
  const path = require ("path");
  const port = process.env.PORT || 7000;
